@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #363543;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff ;
+}
