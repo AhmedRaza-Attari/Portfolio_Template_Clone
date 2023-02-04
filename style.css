@@ -6,52 +6,137 @@
     box-sizing: border-box;
 }
 
-/* body {
-    background-color: lightcoral;
-} */
+body {
+    background-color: #363543;
+}
 
 .container {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* 01. Navbar Section */
 .navbar {
-    background-color: #363543;
+    /* background-color: #363543; */
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0;
+    padding-bottom: 6rem;
 }
 
-ul {
+.navs > ul {
     list-style: none;
     display: flex;
     margin-right: 12rem;
 }
 
 
-a {
+.navs ul li a {
     text-decoration: none;
     color: #fff ;
     padding: 1.7rem;
     font-size: 1.2rem;
 }
 
-a:hover {
+.navs ul li a:hover {
     background-color: #fff;
     color: #363543;
     font-weight: bold;
 }
 
 .logo {
-    margin-left: 5rem;
+    margin-left: 6rem;
     font-size: 1.2rem;
 }
 
 .icons {
-    margin-right: 5rem;
+    margin-right: 6rem;
 }
 
-.icons i {
+.icons > i {
     padding: 0rem .5rem;
+}
+
+.greyColor {
+    color: #969595;
+}
+
+.whiteColor {
+    color: #fff;
+}
+
+
+
+/* 02. Section */
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #2D2D39; */
+    background-image: url(./images/men.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 25%;
+}
+
+.first {
+    margin-left: 6rem;
+}
+
+.second {
+    margin-right: 6rem;
+}
+
+.increase {
+    font-size: 3rem;
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.yellowBar {
+    width: 10rem;
+    height: .5rem;
+    background-color: yellow;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+
+.section2 .first .leftPara {
+    margin-top: 1.9rem;
+    width: 14rem;
+    line-height: 1.6rem;
+    font-size: .9rem;
+}
+
+.section2 .second p {
+    font-size: 1.2rem;
+    width: 16.5rem;
+    margin: 1rem 0;
+}
+
+.section2 .second li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.section2 .second li a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.section2 .second li i {
+    margin-left: .6rem;
+}
+
+.section2 .second .socialIcons img{
+    margin: 0rem 1rem 0rem 0rem;
+    /* color: yellow; */
+    /* background-color: yellow; */
 }
