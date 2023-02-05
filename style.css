@@ -47,12 +47,12 @@ body {
 }
 
 .logo {
-    margin-left: 6rem;
+    margin-left: 5rem;
     font-size: 1.2rem;
 }
 
 .icons {
-    margin-right: 6rem;
+    margin-right: 5rem;
 }
 
 .icons > i {
@@ -68,26 +68,41 @@ body {
 }
 
 
+/* CIRCLE */
+.circleDiv {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.circleDiv > .circle {
+    background-color: #2C2C38;
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%;
+    position: absolute;
+    top: .3rem;
+    background-image: url(./images/men.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: .8;
+}
+
 
 /* 02. Section */
 .section2 {
     display: flex;
     justify-content: space-between;
-    /* background-color: #2D2D39; */
-    background-image: url(./images/men.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: contain; */
-    /* background-size: cover; */
-    background-size: 25%;
 }
 
 .first {
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .second {
-    margin-right: 6rem;
+    margin-right: 5rem;
 }
 
 .increase {
@@ -137,6 +152,18 @@ body {
 
 .section2 .second .socialIcons img{
     margin: 0rem 1rem 0rem 0rem;
-    /* color: yellow; */
-    /* background-color: yellow; */
 }
+
+
+
+/* 03. Section : Sociol Platform */
+.section3 {
+    background-color: #282834;
+}
+
+.rectangle {
+    background-color: #3F3F4E;
+    margin: 0 6rem;
+}
+
+
