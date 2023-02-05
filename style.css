@@ -95,6 +95,7 @@ body {
 .section2 {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 8rem;
 }
 
 .first {
@@ -159,11 +160,34 @@ body {
 /* 03. Section : Sociol Platform */
 .section3 {
     background-color: #282834;
+    position: relative;
 }
 
-.rectangle {
+.section3 > .rectangle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3F3F4E;
-    margin: 0 6rem;
+    /* margin: 0 6rem; */
+    height: 7rem;
+    width: 90%;
+    position: absolute;
+    top: -3.4rem;
+    left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.section3 > .rectangle > .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C2C38;
+    /* width: 8rem; */
+    padding: .8rem 4rem;
+}
+
+.section3 > .rectangle > .right > img {
+    margin-right: 1rem;
 }
 
 
