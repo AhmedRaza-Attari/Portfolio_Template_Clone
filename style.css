@@ -98,11 +98,11 @@ body {
     padding-bottom: 8rem;
 }
 
-.first {
+.section2 > .first {
     margin-left: 5rem;
 }
 
-.second {
+.section2 > .second {
     margin-right: 5rem;
 }
 
@@ -161,8 +161,10 @@ body {
 .section3 {
     background-color: #282834;
     position: relative;
+    padding-top: 9rem;
 }
 
+/* For Social Media Icons Work */
 .section3 > .rectangle {
     display: flex;
     justify-content: space-around;
@@ -182,12 +184,115 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #2C2C38;
-    /* width: 8rem; */
     padding: .8rem 4rem;
 }
 
 .section3 > .rectangle > .right > img {
     margin-right: 1rem;
 }
+
+/* Skills and Projects work */
+.section3 > .projects {
+    display: flex;
+    align-items: center;
+}
+
+.section3 > .projects > .first {
+    margin-left: 5rem;
+    width: 50%;
+}
+
+.section3 > .projects > .first > .heading {
+    line-height: 3rem;
+    word-spacing: .5rem;
+}
+
+.section3 > .projects > .first > p {
+    color: #fff;
+    font-size: .9rem;
+    width: 50%;
+    padding: 1.5rem 0 0;
+}
+
+.section3 > .projects > .first > .numberTitle_div {
+    padding: 1.5rem 0 0;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 > .projects > .first > .numberTitle_div .firstRow,  .section3 > .projects > .first > .numberTitle_div .secondRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section3 > .projects > .first > .numberTitle_div .number_title {
+    width: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.section3 > .projects > .first > .numberTitle_div .number_title > .number {
+    color: yellow;
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+}
+
+.section3 > .projects > .first > .numberTitle_div .number_title > .title  {
+    color: white;
+    font-size: .8rem;
+}
+
+/* Images and Name */
+.section3 .projects .second {
+    margin-right: 5rem;
+    width: 50%;
+}
+
+.section3 .projects .second .imageText_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .projects .second .imageText_div .image_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .7rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3F3F4E;
+}
+
+.section3 .projects .second .imageText_div .image_text .image_text_only {
+    display: flex;
+    align-items: center;
+}
+
+.section3 .projects .second .imageText_div .image_text .text_title {
+    margin: 0 0 0 2rem;
+}
+
+.section3 .projects .second .imageText_div .image_text .text {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: .3rem;
+}
+
+.section3 .projects .second .imageText_div .image_text .title {
+    color: #fff;
+    font-size: .8rem;
+}
+
+.section3 .projects .second .imageText_div .image_text img {
+    width: 12rem;
+    height: 8rem;
+}
+
+.section3 .projects .second .imageText_div .image_text i {
+    color: yellow;
+}
+
+
+/* 04. Section : Three Boxes */
 
 
